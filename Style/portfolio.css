@@ -17,9 +17,10 @@
 }
 /* Header and Navigation Start */
 header{
-    background-color:rgba(255, 248, 243, 1);
-    /* width: 1600px;
-    height: 840px; */
+    background:rgba(255, 248, 243, 1);
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: right bottom, left ;
 }
 nav{
     display: flex;
@@ -44,7 +45,7 @@ nav li{
 .banner{
     display: flex;
     align-items: center;
-    margin: 0 200px 0 124px;
+    margin: 0 00px 0 124px;
 }
 .banner-subtitle{
     font-weight: 600;
@@ -59,3 +60,42 @@ nav li{
     font-size: 18px;
     margin-bottom: 15px;
 }
+/* Hader End */
+/* Main Start */
+main{
+    max-width: 1140px;
+    margin: 130px 230px;
+}
+/* Main End */
+/* about section start */
+.about{
+    padding: 130px 155px;
+    background: #FFF8F3;
+    border-radius: 5px;
+}
+.section-feild{
+    max-width: 830px;
+    background-color: #FFFFFF;
+    border: black solid 1px;
+    border-radius: 5px;
+}
+.section-title{
+    font-size: 35px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    
+}
+.section-discription{
+    font-size: 18px;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 40px;
+    
+    
+}
+.section-table, tr, td, th{
+   padding: 5px 40px 5px 20px;
+   text-align: center;
+}
+/* about section End */
